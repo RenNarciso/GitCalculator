@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Calculator</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        max-width: 720px;
+        margin: 48px auto;
+        padding: 0 16px;
+        line-height: 1.4;
+      }
+      .card {
+        border: 1px solid rgba(127, 127, 127, 0.35);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      button {
+        padding: 10px 14px;
+        border-radius: 10px;
+        border: 1px solid rgba(127, 127, 127, 0.35);
+        background: transparent;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+        padding: 12px;
+        border-radius: 10px;
+        background: rgba(127, 127, 127, 0.15);
+      }
+      .muted {
+        opacity: 0.75;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Browser Calculator</h2>
+    <p class="muted">
+      Click “Run calculator” to enter values via <code>prompt()</code>.
+    </p>
+
+    <div class="card">
+      <button id="runBtn" type="button">Run calculator</button>
+      <pre id="output" aria-live="polite">Result will appear here.</pre>
+    </div>
+
+    <script src="./calculator.browser.js"></script>
+  </body>
+</html>
