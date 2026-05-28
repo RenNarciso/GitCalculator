@@ -1,0 +1,24 @@
+{
+  "name": "gitcalculator",
+  "version": "1.0.0",
+  "description": "![Version](https://img.shields.io/badge/version-v1-blue.svg?cacheSeconds=2592000)",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenNarciso/GitCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RenNarciso/GitCalculator/issues"
+  },
+  "homepage": "https://github.com/RenNarciso/GitCalculator#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
