@@ -1,4 +1,4 @@
-/* Calculator for basic operations, for practice
+/* Calculator for basic operations
 */
 
 let firstNumber=Number(prompt('What is first number?')); //'Number' converts the value into a real number
